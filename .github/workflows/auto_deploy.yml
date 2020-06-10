@@ -34,5 +34,5 @@ jobs:
       run: npm --global surge
         echo Add other actions to build,
         echo test, and deploy your project.
-    -name: Deploying Using Surge.
-     run : surge ./ unequaled-acoustics.surge.sh/ --token "094acae3676c6922085fbd9b724677fd"
+    - name: Deploying Using Surge.
+      run : surge ./ unequaled-acoustics.surge.sh --token "094acae3676c6922085fbd9b724677fd"
